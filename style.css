@@ -1,5 +1,6 @@
 * {
     font-family: 'Lato', sans-serif;
+    
   }
   
   :root {
@@ -100,5 +101,12 @@
   .weather {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+  }
+
+  .search{
+          margin-top: 15px;
+         border-radius: 10px;
+         width: 300px;
+    
   }
   
