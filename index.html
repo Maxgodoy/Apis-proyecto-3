@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tu espacio</title>
+</head>
+<body>
+    <header>
+        <div class="principal">
+        <h1>Tu espacio</h1>
+    </div>
+    </header>
+    <hr>
+    <main>
+        <h1>Clima en el mundo</h1>
+        <div class="search-form">
+          <form id="search-form">
+            <div class="searchbox">
+              <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="searchbox" />
+            </div>
+          </form>
+        </div>
+        <div class="weather-card" id="card">
+          <div class="city" id="city">Santiago, Cl</div>
+          <div class="date" id="date"></div>
+          <div class="temperature">
+            <img src="images/temp-mid.png" class="temp-img" id="temp-img" />
+            <div class="temp" id="temp">14c</div>
+          </div>
+          <div class="weather" id="weather">Sol</div>
+          <div class="range" id="range">12c / 18c</div>
+        </div>
+
+
+        <div class="imagen_diaria">
+            <div class="daily_block">
+         <h3>Imagen espacial diaria</h3>
+         <p>Cada dia seleccionara la imagen espacial del día</p>
+        </div>
+    <button id="search" class="search">
+        Search
+    </button>
+    <div id="content" class="imagen_diaria_manipular">
+    
+    </div>
+    </div>
+
+
+        
+      </main>
+
+
+      <script src="./index.js" type="module"></script>
+</body>
+</html>
